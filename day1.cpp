@@ -50,6 +50,13 @@ int total_component(Node* head, vector<int>& nums) {
 }
 int main(int argc, char const *argv[])
 {
+    /* 
+    Input format
+    4             -no. of element in the linkedlist
+    0 1 2 3       -elements of linkedlist
+    3             -no. of element in the nums
+    0 1 3         -elements of nums
+    */
     int n;
     cin >> n;
     Node* head=make(n);
